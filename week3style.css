@@ -1,0 +1,112 @@
+#con{
+    display: block;
+    height: auto;
+    width: auto;
+    position: relative;
+    text-align: center;
+}
+#height1{
+    display: inline-block;
+    position: relative;
+    height: 600px;
+    width: 240px;
+    background-color: orange;
+    margin:20px;
+}
+#height2{
+    height: 600px;
+    width: 240px;
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+#height3{
+    height: 600px;
+    width: 240px;
+    background-color: orange;
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+}
+#box1{
+    display: block;
+    height:180px;
+    width: 200px;
+    background-color: cyan;
+}
+#box12{
+    display: block;
+    position:absolute;
+    height:180px;
+    width: 200px;
+    bottom: 0px;
+    left: 0px;
+    background-color: cyan;
+}
+.box2{
+    display: inline-block;
+    height:70px;
+    width: 70px;
+    margin:1em;
+    background-color: cyan;
+}
+#box23{
+    position: absolute;
+    height:70px;
+    width: 200px;
+    bottom: 0px;
+    margin:1em;
+    background-color: cyan;
+}
+#one{
+    display:inline-block;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    height:100px;
+    width: 100px;
+    margin:1em ;
+    background-color: cyan;
+}
+#two{
+    position:absolute;
+    height:100px;
+    width: 100px;
+    top: 0px;
+    right:0px;
+    background-color: cyan;
+}
+#three{
+    position:absolute;
+    height:100px;
+    width: 100px;
+    bottom: 0px;
+    left:0px;
+    background-color: cyan;
+}
+#four{
+    position:absolute;
+    height:100px;
+    width: 100px;
+    bottom: 0px;
+    right:0px;
+    margin: 1em;
+    background-color: cyan;
+}
+@media screen and (max-width:768px) {
+    .size{
+        display: block;
+    }
+}
+@media screen and (min-width:768px) {
+    .size{
+        display: inline-block;
+    }
+}
+button{
+    position: fixed;
+    bottom: 20px;
+    right:10px;
+    background-color: green;
+}
